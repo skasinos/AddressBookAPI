@@ -11,14 +11,19 @@ Setup `pyenv` and install `poetry` dependencies:
 pyenv local 3.9.0 && poetry env use 3.9.0 && poetry install
   ```
 
-In an IDE e.g. PyCharm, run tests and check coverage:
+In an IDE e.g. PyCharm, make migrations and migrate:
+  ```latex
+python manage.py makemigrations && python manage.py migrate
+  ```
+
+Run tests and check coverage:
   ```latex
 coverage run manage.py test && coverage report && coverage html
   ```
   
-Makemigrations, migrate and runserver locally:
+Runserver locally:
   ```latex
-python manage.py makemigrations && python manage.py migrate && python manage.py runserver
+python manage.py runserver
   ```
 
 ## Documentation
