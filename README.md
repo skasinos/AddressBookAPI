@@ -11,7 +11,7 @@ Setup `pyenv` and install `poetry` dependencies:
 pyenv local 3.9.0 && poetry env use 3.9.0 && poetry install
   ```
 
-Run tests and check coverage:
+In an IDE e.g. PyCharm, run tests and check coverage:
   ```latex
 coverage run manage.py test && coverage report && coverage html
   ```
