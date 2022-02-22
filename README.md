@@ -28,7 +28,7 @@ To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http:/
 
 ## Filterning and Pagination
 - A user may request a specific id using [http://127.0.0.1:8000/api/addressbook/?id=5](http://127.0.0.1:8000/api/addressbook/?id=5).
-- Specific fields may be searched. For instance, all addresses located at cities containing `borough` may be queried using [http://127.0.0.1:8000/api/addressbook/?search=borough](http://127.0.0.1:8000/api/addressbook/?id=5).
+- Specific fields may be searched. For instance, all addresses located at cities containing `borough` may be queried using [http://127.0.0.1:8000/api/addressbook/?search=borough](http://127.0.0.1:8000/api/addressbook/?search=borough).
 - All addresses corresponding to a given city may be retrieved using [http://127.0.0.1:8000/api/addressbook/?city=London](http://127.0.0.1:8000/api/addressbook/?city=London). Similarly, addresses associated with a given country may be requested using [http://127.0.0.1:8000/api/addressbook/?country=GB](http://127.0.0.1:8000/api/addressbook/?country=GB).
 - `LimitOffsetPagination` has been enabled to allow a user to limit and offset data returned e.g. http://127.0.0.1:8000/api/addressbook/?limit=x&offset=y where `x` and `y` need to be substituted with integers associated with the `limit` and `offset` numbers, respectively
 
