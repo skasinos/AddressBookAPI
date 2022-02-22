@@ -11,7 +11,7 @@ Setup `pyenv` and install `poetry` dependencies:
 pyenv local 3.9.0 && poetry env use 3.9.0 && poetry install
   ```
 
-In an IDE e.g. PyCharm, make migrations and migrate:
+In an IDE e.g. [PyCharm](https://www.jetbrains.com/pycharm/), make migrations and migrate:
   ```latex
 python manage.py makemigrations && python manage.py migrate
   ```
