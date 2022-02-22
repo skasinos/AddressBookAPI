@@ -10,7 +10,6 @@ class AddressbookSerializer(serializers.ModelSerializer):
     for each user.
     """
 
-    # owner = serializers.ReadOnlyField(source='owner.username')
     owner = serializers.HiddenField(default=serializers.CurrentUserDefault())
 
     class Meta:
