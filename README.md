@@ -33,6 +33,7 @@ To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http:/
 - A user needs to be registered [http://127.0.0.1:8000/api/auth/register](http://127.0.0.1:8000/api/auth/register). 
 - Registered users can then login with `username` and `password`.
 - The current user can be checked at [http://127.0.0.1:8000/api/auth/user](http://127.0.0.1:8000/api/auth/user). 
+- A user can log out.
 
 ## Filterning and Pagination
 - A user may request a specific id using [http://127.0.0.1:8000/api/addressbook/?id=5](http://127.0.0.1:8000/api/addressbook/?id=5).
