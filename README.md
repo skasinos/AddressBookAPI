@@ -6,7 +6,7 @@ Clone repository:
 cd Desktop && git clone git@github.com:skasinos/AddressBookAPI.git && cd AddressBookAPI
   ```
   
-Setup pyenv and install dependencies:
+Setup `pyenv` and install `poetry` dependencies:
   ```latex
 pyenv local 3.9.0 && poetry env use 3.9.0 && poetry install
   ```
