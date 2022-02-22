@@ -35,6 +35,9 @@ To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http:/
 - The current user can be checked at [http://127.0.0.1:8000/api/auth/user](http://127.0.0.1:8000/api/auth/user). 
 - A user can log out.
 
+## Retrieving and updating addresses
+- A user can retrieve all his/her addresses via GET request at [http://127.0.0.1:8000/api/addressbook/15/](http://127.0.0.1:8000/api/addressbook/15/)
+
 ## Filterning and Pagination
 - A user may request a specific id using [http://127.0.0.1:8000/api/addressbook/?id=5](http://127.0.0.1:8000/api/addressbook/?id=5).
 - Specific fields may be searched. For instance, all addresses located at cities containing `borough` may be queried using [http://127.0.0.1:8000/api/addressbook/?search=borough](http://127.0.0.1:8000/api/addressbook/?search=borough).
