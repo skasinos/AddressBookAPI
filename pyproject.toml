@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "addressbookapi"
+version = "0.1.0"
+description = ""
+authors = ["S. Kasinos <s.kasinos@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.0.2"
+djangorestframework = "^3.13.1"
+django-countries = "^7.2.1"
+django-cities-light = "^3.9.0"
+django-smart-selects = "^1.5.9"
+django-filter = "^21.1"
+coverage = "^6.3.2"
+pytest = "^7.0.1"
+flake8 = "^4.0.1"
+black = "^22.1.0"
+drf-yasg = "^1.20.0"
+PyJWT = "^2.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
