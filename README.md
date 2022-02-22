@@ -46,6 +46,10 @@ To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http:/
 - All addresses corresponding to a given city may be retrieved using [http://127.0.0.1:8000/api/addressbook/?city=London](http://127.0.0.1:8000/api/addressbook/?city=London). Similarly, addresses associated with a given country may be requested using [http://127.0.0.1:8000/api/addressbook/?country=GB](http://127.0.0.1:8000/api/addressbook/?country=GB).
 - `LimitOffsetPagination` has been enabled to allow a user to limit and offset data returned e.g. http://127.0.0.1:8000/api/addressbook/?limit=x&offset=y where `x` and `y` need to be substituted with integers associated with the `limit` and `offset` numbers, respectively
 
+## Deleting addresses
+- A user can delete a specific address or all of the addresses through a `DELETE` request.
+- A user can filter by specific keywords to retrieve limited number of addresses and then delete only these through a subsequent `DELETE` request.
+
 ## Assumptions
 - A user cannot add a duplicated address associated with his/her account but it is possible to add an address that already exists in the system by another user.
 - Basic authentication assumed with a username and password.
