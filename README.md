@@ -49,7 +49,9 @@ To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http:/
 
 ## Deleting addresses
 - A user can delete a specific address or all of the addresses through a `DELETE` request at [http://127.0.0.1:8000/api/addressbook/id/](http://127.0.0.1:8000/api/addressbook/id/) where `id` is an integer associated with the identity field of a given address.
+- A user can delete all of the addresses through a `DELETE` request at [http://127.0.0.1:8000/api/addressbook/](http://127.0.0.1:8000/api/addressbook/).
 - A user can filter by specific keywords to retrieve limited number of addresses and then delete only these through a subsequent `DELETE` request.
+
 
 ## Assumptions and Future Work
 - A user cannot add a duplicated address associated with his/her account but it is possible to add an address that already exists in the system by another user.
