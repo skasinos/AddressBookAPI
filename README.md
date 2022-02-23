@@ -32,7 +32,7 @@ To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http:/
 ## Registration and login
 - A user needs to register with `email`, `username` and `password` via a `POST` request at [http://127.0.0.1:8000/api/auth/register](http://127.0.0.1:8000/api/auth/register).
 - Registered users can then login with `username` and `password`.
-- The current user can be checked at [http://127.0.0.1:8000/api/auth/user](http://127.0.0.1:8000/api/auth/user). 
+- The current user can be checked via a `GET` request at [http://127.0.0.1:8000/api/auth/user](http://127.0.0.1:8000/api/auth/user). 
 - A user can log out.
 
 ## Creating, retrieving and updating addresses
