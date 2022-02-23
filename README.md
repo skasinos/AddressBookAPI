@@ -52,6 +52,6 @@ To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http:/
 
 ## Assumptions and Future Work
 - A user cannot add a duplicated address associated with his/her account but it is possible to add an address that already exists in the system by another user.
-- Basic authentication assumed with a username and password (can be extended to JWT in future).
+- Basic authentication assumed with a `username` and `password` (can be extended to JWT in future).
 - Basic unit testing added and coverage. Further tests required and coverage should be increased.
 
