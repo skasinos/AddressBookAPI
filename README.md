@@ -50,7 +50,7 @@ To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http:/
 ## Deleting addresses
 - A user can delete a specific address via a `DELETE` request at [http://127.0.0.1:8000/api/addressbook/id/](http://127.0.0.1:8000/api/addressbook/id/) where `id` is an integer associated with the identity field of a given address.
 - A user can delete all of the addresses via a `DELETE` request at [http://127.0.0.1:8000/api/addressbook/](http://127.0.0.1:8000/api/addressbook/).
-- A user can filter by specific keywords to retrieve limited number of addresses and then delete only these through a subsequent `DELETE` request.
+- A user can filter by specific keywords to retrieve via `GET` a limited number of addresses e.g. [http://127.0.0.1:8000/api/addressbook/?country=GB](http://127.0.0.1:8000/api/addressbook/?country=GB). A subsequent `DELETE` request will delete only these addresses.
 
 
 ## Assumptions and Future Work
