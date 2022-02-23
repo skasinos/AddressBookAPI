@@ -30,7 +30,7 @@ python manage.py runserver
 To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http://127.0.0.1:8000/swagger/) or [http://127.0.0.1:8000/redoc/](http://127.0.0.1:8000/redoc/) and to download JSON containing specification of API to [http://127.0.0.1:8000/swagger.json](http://127.0.0.1:8000/swagger.json).
 
 ## Registration and login
-- A user needs to be registered via a `POST` request at [http://127.0.0.1:8000/api/auth/register](http://127.0.0.1:8000/api/auth/register). 
+- A user needs to register with `email`, `username` and `password` via a `POST` request at [http://127.0.0.1:8000/api/auth/register](http://127.0.0.1:8000/api/auth/register).
 - Registered users can then login with `username` and `password`.
 - The current user can be checked at [http://127.0.0.1:8000/api/auth/user](http://127.0.0.1:8000/api/auth/user). 
 - A user can log out.
