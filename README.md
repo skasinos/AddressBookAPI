@@ -43,8 +43,8 @@ To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http:/
 ## Filterning and Pagination
 - A user may request a specific id via `GET` request at [http://127.0.0.1:8000/api/addressbook/?id=5](http://127.0.0.1:8000/api/addressbook/?id=5).
 - Search-based filtering is enabled which allows specific fields to be searched. For instance, all addresses located at cities containing `borough` may be queried via `GET` request at [http://127.0.0.1:8000/api/addressbook/?search=borough](http://127.0.0.1:8000/api/addressbook/?search=borough). Similarly all postcodes starting with E17 may be search via [http://127.0.0.1:8000/api/addressbook/?search=E17](http://127.0.0.1:8000/api/addressbook/?search=E17)
-- All addresses corresponding to a given city may be retrieved using [http://127.0.0.1:8000/api/addressbook/?city=London](http://127.0.0.1:8000/api/addressbook/?city=London). Similarly, addresses associated with a given country may be requested using [http://127.0.0.1:8000/api/addressbook/?country=GB](http://127.0.0.1:8000/api/addressbook/?country=GB).
-- `LimitOffsetPagination` has been enabled to allow a user to limit and offset data returned e.g. http://127.0.0.1:8000/api/addressbook/?limit=x&offset=y where `x` and `y` need to be substituted with integers associated with the `limit` and `offset`, respectively
+- All addresses corresponding to a given city may be retrieved via `GET` request at [http://127.0.0.1:8000/api/addressbook/?city=London](http://127.0.0.1:8000/api/addressbook/?city=London). Similarly, addresses associated with a given country may be requested using [http://127.0.0.1:8000/api/addressbook/?country=GB](http://127.0.0.1:8000/api/addressbook/?country=GB).
+- `LimitOffsetPagination` has been enabled to allow a user to limit and offset data returned following a `GET` request e.g. http://127.0.0.1:8000/api/addressbook/?limit=x&offset=y where `x` and `y` need to be substituted with integers associated with the `limit` and `offset`, respectively
 
 ## Deleting addresses
 - A user can delete a specific address or all of the addresses through a `DELETE` request.
