@@ -48,7 +48,7 @@ To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http:/
 - `Search-based filtering` may be used in conjunction with `LimitOffsetPagination` by combining with `&`.
 
 ## Deleting addresses
-- A user can delete a specific address or all of the addresses through a `DELETE` request.
+- A user can delete a specific address or all of the addresses through a `DELETE` request at [http://127.0.0.1:8000/api/addressbook/id/](http://127.0.0.1:8000/api/addressbook/id/) where `id` is an integer associated with the identity field of a given address.
 - A user can filter by specific keywords to retrieve limited number of addresses and then delete only these through a subsequent `DELETE` request.
 
 ## Assumptions and Future Work
