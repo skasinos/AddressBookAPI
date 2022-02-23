@@ -50,7 +50,8 @@ To view documented endpoints navigate to [http://127.0.0.1:8000/swagger/](http:/
 - A user can delete a specific address or all of the addresses through a `DELETE` request.
 - A user can filter by specific keywords to retrieve limited number of addresses and then delete only these through a subsequent `DELETE` request.
 
-## Assumptions
+## Assumptions and Future Work
 - A user cannot add a duplicated address associated with his/her account but it is possible to add an address that already exists in the system by another user.
-- Basic authentication assumed with a username and password.
+- Basic authentication assumed with a username and password (can be extended to JWT in future).
+- Basic unit testing added and coverage. Further tests required and coverage should be increased.
 
